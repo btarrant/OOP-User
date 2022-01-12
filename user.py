@@ -12,3 +12,7 @@ class User:
 
     def display_user_balance(self, account_balance):
         print(self, account_balance)
+
+messi = User("Lionel Messi", "goat@messi.com")
+drogba = User("Didier Drogba", "diddy@ivycoast.com")
+gary = User("Gary Neville", "garynev@dojo.com")
