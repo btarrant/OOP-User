@@ -9,3 +9,6 @@ class User:
 
     def make_withdrawal(self, amount):
         self.account_balance -= amount
+
+    def display_user_balance(self, account_balance):
+        print(self, account_balance)
